@@ -1,0 +1,18 @@
+# Auto-detect text files and normalize all line endings to LF.
+# This is the best setting for cross-platform projects.
+* text=auto eol=lf
+
+# Explicitly mark common binary files to prevent Git from touching them.
+# (binary is a macro for -text -diff)
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.pdf    binary
+*.mov    binary
+*.mp4    binary
+*.mp3    binary
+*.zip    binary
+*.7z     binary
+*.pyc    binary
+*.swp    binary
