@@ -1,0 +1,16 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Obsidian stuff (editor config, plugins, workspace)
+.obsidian/
+
+# iCloud detritus (if any end up in the repo root)
+*.icloud
+
+# Temporary/backup files
+~$*
+*.tmp
+
+# Optional: ignore large raw data not meant for Git
+/data/**
